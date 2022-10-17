@@ -18,16 +18,11 @@ end
 
 
 def halve number
-    # if number != "number" ?  nil : number/2  
+     
       if number.class != Integer
         nil
       else
         number/2
       end
-      # case number 
-      # when number.class != Integer
-      #   nil
-      # when number.class  == Integer
-      #   number / 2
-      # end
+
 end
